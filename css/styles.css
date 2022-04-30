@@ -6,9 +6,15 @@
   font-size: 18px;
 }
 
+body {
+  background: #171925;
+}
+
 a {
   text-decoration: none;
 }
+
+/* Header section */
 
 .header {
   background-color: #1f2937;
@@ -19,8 +25,12 @@ a {
 }
 
 .logo {
-  width: 50px;
-  border-radius: 25%;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .links ul {
@@ -39,3 +49,38 @@ a {
   display: flex;
   gap: 24px;
 }
+
+/* Main text section */
+
+.main-text {
+  background-color: #1f2937;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25px 0;
+}
+
+.section-first {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.section-first p {
+  padding: 15px 0;
+}
+
+.sign-up {
+  background: #3882f6;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.main-text-img {
+  width: 400px;
+  border-radius: 15% 45%;
+}
+
