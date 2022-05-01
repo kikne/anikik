@@ -142,3 +142,27 @@ a {
 .second-card > .card-image {
   object-position: left center;
 }
+
+/* Quotation section */
+
+.section-quotation {
+  height: 400px;
+  background: #232d3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+blockquote {
+  width: 700px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+figcaption {
+  width: 600px;
+  text-align: right;
+  font-weight: 600;
+}
