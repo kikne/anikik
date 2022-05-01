@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto, "Open Sans";
+  font-family: Roboto, "Open Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -69,8 +69,12 @@ a {
   margin-right: 100px;
 }
 
+.section-first h1 {
+  font-size: 24px;
+}
+
 .section-first p {
-  padding: 15px 0;
+  padding: 15px 0 25px 0;
 }
 
 .section-first button:hover {
@@ -90,3 +94,51 @@ a {
   border-radius: 15% 45%;
 }
 
+/* Cards section */
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 70px 30px 100px 30px;
+}
+
+.cards-section h2 {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: flex; 
+}
+
+.cards p {
+  margin: 15px;
+  text-align: center;
+}
+
+.card {
+  margin-right: 25px;
+}
+
+.fourth-card {
+  margin-right: 0;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-right-width: 7px;
+  border-bottom-width: 5px;
+  outline: 3px solid #3882f6;
+  border-radius: 45px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.second-card > .card-image {
+  object-position: left center;
+}
