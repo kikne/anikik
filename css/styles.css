@@ -20,15 +20,16 @@ a {
 .header {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 25px 255px;
+  padding: 25px 0;
 }
 
 .logo {
   border: 2px solid #fff;
   border-radius: 8px;
   padding: 8px;
+  margin-right: 600px;
 }
 
 .links ul {
@@ -113,6 +114,9 @@ a {
 }
 
 .cards-section h2 {
+  flex: 1 1 auto;
+  text-align: center;
+  width: 100%;
   font-size: 24px;
   margin-bottom: 45px;
 }
